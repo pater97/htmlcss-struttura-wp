@@ -27,11 +27,14 @@ body{
     height: 60px;
     background-color: cornflowerblue;
 }
-.debug .leftline{
+.debug .sideline, .centraline{
     height: 400px;
     background-color: cornflowerblue;
 }
-.debug 
+.debug #foot{
+    height: 30px;
+    background-color: purple;
+}
 /* header */
 .headcontent{
     background-color: blueviolet;
@@ -42,13 +45,17 @@ body{
 margin: 20px 0;
 }
 
-.leftline{
-    width: 25%;
+.sideline{
+    width: 15%;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .centraline{
-    width: 50$;
+    width: 68%;
     float: left;
-
+    margin: 10px 1%;
+}
+/* footer */
+#foot{
+margin-bottom: 10px;
 }
